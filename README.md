@@ -4,8 +4,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Click here](https://trickfinger606.github.io/Order-summary-card)
-- Live Site URL: [Click here](https://trickfinger606.github.io/NFT-Preview-Card/)
+- Solution URL: [Click here](https://www.figma.com/file/6p3ofsbwTEuB4gJFgqr3KV/order-summary-component?node-id=0%3A83&t=3fDp2jRkm9dfYbj3-0)
+- Live Site URL: [Click here](https://trickfinger606.github.io/Order-summary-card)
 
 
 ### Built with
