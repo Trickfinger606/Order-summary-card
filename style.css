@@ -1,0 +1,152 @@
+:root {
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: var(--Pale-blue);
+}
+
+.main {
+    height: 97vh;
+    width: 100%;
+    background-color: var(--Pale-blue);
+    background-image: url(/images/pattern-background-desktop.svg);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: repeat-x;
+}
+
+.card {
+    height: 697px;
+    width: 450px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: hsl(223, 47%, 23%);
+    padding: 45px 48px 0px;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.description {
+    padding: 17px 45px 0px;
+    color: var(--Desaturated-blue);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.plan {
+    margin: 20px 48px 32px 48px;
+    /* padding: 20px 48px 0px; */
+    background-color: #F7F9FF;
+    border-radius: 11px;
+}
+
+.logo-change {
+    /* padding: 20px 48px 0px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.music-icon {
+    /* padding: 25px 24px 0px; */
+    margin: 25px 0px 25px 24px;
+}
+
+.change-plan {
+    margin: 40px 24px 39px 0px;
+    font-weight: 700;
+    font-size:14px;
+    line-height: 19px;
+}
+
+.change-plan:hover {
+    text-decoration-line: none;
+    color: #766CF1;
+
+}
+
+.xz {
+    flex-direction: column;
+    margin-right: 68.81px;
+}
+
+.annual {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--Dark-blue);
+}
+
+.price {
+    margin-top: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--Desaturated-blue);
+}
+
+.pay {
+    margin: 32px 48px 0px 48px;
+    background-color: var(--Bright-blue);
+    border-radius: 11px;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    color: white;
+    padding: 15px 102px 15px 102px;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    transition: 0.5s;
+    text-decoration-line: none;
+}
+
+.pay:hover {
+    background-color: #766CF1;
+    text-decoration-line: none;
+}
+
+.cancel {
+    display: flex;
+    margin: 50px 178px 48px 176px;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--Desaturated-blue);
+    text-decoration-line: none;
+}
+
+.cancel:hover {
+    color: var(--Dark-blue);
+
+}
