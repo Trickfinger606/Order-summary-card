@@ -140,12 +140,13 @@ body {
 
 .cancel {
     display: flex;
-    margin: 50px 178px 48px 176px;
+    margin: 50px 0px 48px 0px;
     font-weight: 900;
     font-size: 15px;
     line-height: 20px;
     color: var(--Desaturated-blue);
     text-decoration-line: none;
+    justify-content: center;
 }
 
 .cancel:hover {
